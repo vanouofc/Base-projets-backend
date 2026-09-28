@@ -1,4 +1,3 @@
-import mongoose from 'mongoose';
 import User from '../model/user.model.js';
 import dotenv from 'dotenv';
 import { hashPassword, comparePassword, generateToken } from "../utils/TokenPassword.js";
